@@ -1,0 +1,112 @@
+body {
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  color: #67696c;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  overflow-x: hidden;
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+#title{
+background-image: image(bake-bakery-baking-1251179.jpg);
+
+
+}
+
+
+.container{
+  padding: 7% 15%;
+}
+
+
+.wrapper{
+  background-image: url(bake-bakery-baking-1251179.jpg);
+  background-position: center;;
+  background-repeat: no-repeat;;
+  background-size: cover;
+  opacity: 0.8;
+  padding: 7% 15%;
+
+}
+#ad{
+  padding:7% 15%;
+  margin: 3%;
+}
+#what{
+  padding: 7% 15%;
+  background-color: #6699ff;
+  color: #fff;
+}
+
+
+
+
+h5{
+  color: blue;
+}
+#recent{
+  padding: 7% 15%;
+}
+
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;}
+  .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-card-back {
+  background-color: #6699ff;
+  color: white;
+  transform: rotateY(180deg);
+  height: 300px;
+  width: 400px;
+}
+.header{
+  background-color:  #6699ff;
+  color: #fff;
+}
+
+#TESTIMONIAL{
+  background-color: #6699ff;
+  padding: 60px;
+}
+#footer{
+  padding: 7% 15%;
+  font-size: 20pt;
+  font-weight: 600;
+  background-color: #6699ff;
+  color: #fff;
+}
+
+.
